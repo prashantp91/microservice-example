@@ -9,6 +9,7 @@ public class EmailController {
 
 	@PostMapping("/email")
 	String sendMail(@RequestBody String email) {
+		System.out.println("sending email...");
 		return "email sent...";
 	}
 }

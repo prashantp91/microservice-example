@@ -10,7 +10,7 @@ Microservices - also known as the microservice architecture - is an architectura
 
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
 
-Solarized dark             |  Solarized Ocean
+Basic Diagram             |  Complete Architecture
 :-------------------------:|:-------------------------:
 ![](https://lh3.googleusercontent.com/proxy/1cp9nRBM3Vub9wKgJIdFwRR3mSSrSVfWORKEE-fGPK2NK6eWI9CiS58hGWokL-nPL35FyC5BkPA6fGW9TnOYE-uovsHAopZTPSpOy5ttpVw)  |  ![](doc/microservice-architect.png)
 

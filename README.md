@@ -1,4 +1,4 @@
-# microservices-example
+# microservices
 ### What are microservices?
 Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
 
@@ -10,7 +10,12 @@ Microservices - also known as the microservice architecture - is an architectura
 
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
 
-![Optional Text](https://lh3.googleusercontent.com/proxy/1cp9nRBM3Vub9wKgJIdFwRR3mSSrSVfWORKEE-fGPK2NK6eWI9CiS58hGWokL-nPL35FyC5BkPA6fGW9TnOYE-uovsHAopZTPSpOy5ttpVw)
+https://microservices.io/
+
+Basic Diagram             |  Complete Architecture
+:-------------------------:|:-------------------------:
+![](https://lh3.googleusercontent.com/proxy/1cp9nRBM3Vub9wKgJIdFwRR3mSSrSVfWORKEE-fGPK2NK6eWI9CiS58hGWokL-nPL35FyC5BkPA6fGW9TnOYE-uovsHAopZTPSpOy5ttpVw)  |  ![](doc/microservice-architect.png)
+
 
 ## Local setup
 1. git clone <repo url>

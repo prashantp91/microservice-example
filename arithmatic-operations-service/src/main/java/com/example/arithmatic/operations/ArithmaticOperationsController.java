@@ -15,7 +15,13 @@ public class ArithmaticOperationsController {
 		System.out.println("called");
 		return "Hello, Server is up and running";
 	}
-	
+
+	@PostMapping("/hello")
+	String hello(@RequestBody String name) {
+		System.out.println("hello service called..");
+		return "Hello, " + name;
+	}
+
 	@PostMapping("/plus")
 	Operands plus(@RequestBody Operands input) {
 		System.out.println("plus operation will performed.");

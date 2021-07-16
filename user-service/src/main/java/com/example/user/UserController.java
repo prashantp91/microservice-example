@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.user.entity.OperationData;
+import com.example.user.feign.ArithmaticOperationsServiceFeignClient;
 
 @RestController
 public class UserController {
@@ -22,8 +23,8 @@ public class UserController {
 	@Autowired
 	RestTemplate restTemplate;
 
-//	@Autowired
-//	ArithmaticOperationsServiceFeignClient arithmaticOptClient;
+	@Autowired
+	ArithmaticOperationsServiceFeignClient arithmaticOptClient;
 
 	@GetMapping("/ping")
 	String ping() {
@@ -75,13 +76,11 @@ public class UserController {
 		return new HttpEntity<>(params, headers);
 	}
 
-	@PostMapping("/user")
-	String createUser(@RequestBody OperationData user) {
-//		System.out.println(user.getFirstname());
-//		String result = arithmaticOptClient.sendEmail(user.getEmail());
-//		ResponseEntity<String> result = restTemplate.postForEntity(URL, user.getEmail(), String.class);
-//		return userResponses + " and " + result.getBody();
-		return null;
+	@PostMapping("/hello")
+	String hello(@RequestBody String name) {
+		System.out.println(name);
+		String result = arithmaticOptClient.hello(name);
+		return result;
 	}
 
 }

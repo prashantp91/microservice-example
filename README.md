@@ -32,18 +32,20 @@ Basic Diagram             |  Complete Architecture
 4. Open Eureka url http://localhost:8761/
 5. To test Feign service 
    Open 2 command prompts and below command on each 
+   
    ``` 
    cd arithmatic-operations-service 
    mvn package 
    java -jar target\arithmatic-operations-service-0.0.1-SNAPSHOT.jar --server.port=8083
-   Note - use unique port number for each cmd/instance
-  ```
-  Then hit the url from postman 
-  POST: http://localhost:8080/hello
-  BODY: {
+   Note - use unique port number for each cmd/instanc
+   ```
+   Then hit the url from postman using below details <br />
+   ```
+   POST: http://localhost:8080/hello
+   BODY: { 
           "name" : "prashant"
         }
-  
+   ```
   
 ## Technology
 1. Springboot

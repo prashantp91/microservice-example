@@ -1,4 +1,4 @@
-# discovery-service
+# config-server
 This is Eureka Server where other services get registered.
 
 

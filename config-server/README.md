@@ -1,6 +1,6 @@
 # config-server
 This is used to provide runtime configuration properties to all applications.
-This will read configuration properties from git repository https://github.com/prashantp91/microservices-config-repo <br />
+This will read configuration properties from [git repository](https://github.com/prashantp91/microservices-config-repo) <br />
 Your application name and properties file should be matched.
 
 

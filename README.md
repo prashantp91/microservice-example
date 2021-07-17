@@ -29,13 +29,13 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 4. Eureka server -> http://localhost:8761/
 5. Config server -> http://localhost:8888/user-service/dev or http://localhost:8888/arithmatic-operations-service/dev
 6. To test Feign service 
-   Open 2 command prompts and below command on each 
+   Open 2 command prompts and run below command on each 
    
    ``` 
    cd arithmatic-operations-service 
    mvn package 
    java -jar target\arithmatic-operations-service-0.0.1-SNAPSHOT.jar --server.port=8083
-   Note - use unique port number for each cmd/instanc
+   Note - use unique port number for each cmd/instance
    ```
    Then hit the url from postman using below details <br />
    ```
@@ -44,7 +44,8 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
           "name" : "prashant"
         }
    ```
-
+   You will see the logs getting printed on both console in round robin fassion.
+   
    
 ## Reference: 
    https://microservices.io/
